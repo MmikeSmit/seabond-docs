@@ -10,6 +10,13 @@
 - [聪明钱发现](smart-money.md)
 - [钱包详情分析](wallet-details.md)
 - [跟单](copy-trading.md)
+  - [从哪里创建](copy-trading-create.md)
+  - [仓位怎么计算](copy-trading-sizing.md)
+  - [跟单模式](copy-trading-modes.md)
+  - [总投入](copy-trading-investment.md)
+  - [无法创建的常见原因](copy-trading-troubleshooting.md)
+  - [创建后在哪里看](copy-trading-management.md)
+  - [查看跟单表现](copy-trading-performance.md)
 - [个人中心](profile.md)
 - [收藏与标签](favorites-labels.md)
 
