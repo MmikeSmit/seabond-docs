@@ -1,7 +1,7 @@
-# Summary
+# 目录
 
 ## SeaBond
 
-- [Introduction](README.md)
-- [Profile](profile.md)
+- [介绍](README.md)
+- [个人中心](profile.md)
 

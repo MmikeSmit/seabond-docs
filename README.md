@@ -1,10 +1,10 @@
-# SeaBond Documentation
+# SeaBond 文档
 
-SeaBond is a Hyperliquid-focused trading assistant for discovering smart money, reviewing portfolio performance, and managing copy-trading activity.
+SeaBond 是面向 Hyperliquid 交易场景的智能交易辅助平台，帮助用户发现聪明钱地址、查看组合表现，并管理复制交易策略。
 
-This documentation explains the main user-facing features in SeaBond and provides clear operating guidance for account, portfolio, and copy-trading workflows.
+本文档介绍 SeaBond 的核心功能、账户页面、组合数据口径以及复制交易相关操作，帮助用户更清晰地理解各模块的用途和风险边界。
 
-## Documentation sections
+## 文档目录
 
-- [Profile](profile.md): Personal account center, portfolio overview, copy-trading account, unified trading account, and profile settings.
+- [个人中心](profile.md)：账户资料、资产总览、复制交易账户、统一交易账户和个人资料设置说明。
 

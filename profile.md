@@ -1,243 +1,243 @@
-# Profile
+# 个人中心
 
-Profile is the personal account center in SeaBond. It brings together the user's identity, account value, copy-trading portfolio, unified trading account, open positions, assets, orders, and transaction history in one place.
+个人中心是 SeaBond 的账户管理与资产查看页面。用户可以在这里查看个人身份信息、账户总资产、复制交易组合、统一交易账户、持仓、资产、订单和历史记录。
 
-Use this page to review portfolio performance, manage copy-trading activity, inspect trading records, and update personal profile information.
+该页面适合用于检查账户表现、管理复制交易、查看交易明细，并维护个人资料。
 
 {% hint style="info" %}
-Profile is available only after the user is signed in. If the user is not authenticated, SeaBond will redirect them to the Smart Money page.
+个人中心仅对已登录用户开放。如果用户尚未登录，SeaBond 会自动跳转到 Smart Money 页面。
 {% endhint %}
 
-## Page access
+## 页面入口
 
-| Destination | URL | Description |
+| 目标页面 | URL | 说明 |
 | --- | --- | --- |
-| Profile overview | `/profile` | Opens the default Overview section. |
-| Copy-trading portfolio | `/profile?tab=copies` | Opens the Copies section directly. |
-| Unified trading account | `/profile?tab=perpetuals` | Opens the Perpetuals section directly. |
+| 个人中心总览 | `/profile` | 打开默认的 Overview 页面。 |
+| 复制交易账户 | `/profile?tab=copies` | 直接打开 Copies 页面。 |
+| 统一交易账户 | `/profile?tab=perpetuals` | 直接打开 Perpetuals 页面。 |
 
-## Main sections
+## 页面结构
 
-Profile is organized into three primary sections.
+个人中心分为三个主要区域。
 
-| Section | Purpose |
+| 区域 | 用途 |
 | --- | --- |
-| Overview | A consolidated view of the user's main wallet and copy-trading sub-wallets. |
-| Copies | A dedicated view for copy-trading equity, active copy rules, and copy-trading history. |
-| Perpetuals | A dedicated view for the user's own unified trading account, positions, assets, orders, and trading history. |
+| Overview | 查看主钱包与复制交易子钱包合并后的账户总览。 |
+| Copies | 查看复制交易权益、活跃复制规则和复制交易历史。 |
+| Perpetuals | 查看用户主钱包的统一交易账户、持仓、资产、订单和交易历史。 |
 
 ## Overview
 
-The Overview section provides a consolidated account view. It combines the user's main wallet and copy-trading sub-wallets to show overall account value and recent performance.
+Overview 用于展示用户整体账户表现。该区域会合并主钱包和复制交易子钱包的数据，让用户快速了解整体资产规模和近期收益变化。
 
-### Estimated total value
+### 账户估算总值
 
-Estimated Total Value represents the user's total account value across the main wallet and copy-trading accounts. The 7-day PnL and chart are based on the aggregated portfolio view.
+Estimated Total Value 表示用户在 SeaBond 中的整体账户估算价值，包括主钱包和复制交易账户。7 日 PnL 和趋势图基于合并后的组合数据展示。
 
-This section is designed for a high-level portfolio review:
+该区域主要用于查看：
 
-- Total estimated account value
-- 7-day PnL
-- Portfolio performance chart
-- Account-level asset distribution
-- Deposit and withdrawal records
+- 账户估算总值
+- 7 日 PnL
+- 组合表现趋势图
+- 账户级资产分布
+- 充值与提现记录
 
-### Account view
+### Account View
 
-Account View summarizes account-level balances, PnL, ROI, and risk-related information. It helps users understand how their funds are distributed across direct trading and copy-trading activity.
+Account View 用于汇总不同账户维度的资产、PnL、ROI 和风险相关指标，帮助用户判断资金在直接交易和复制交易之间的分布情况。
 
 ### Assets
 
-The Assets tab lists the user's spot assets and balances. Users can search assets and optionally hide small balances.
+Assets 用于展示用户现货资产和余额。用户可以搜索资产，也可以隐藏小额资产。
 
-| Control | Description |
+| 功能 | 说明 |
 | --- | --- |
-| Search | Filters assets by keyword. |
-| Hide assets below 1 USD | Hides low-value asset rows from the display. |
-| Deposit / Withdraw | Opens deposit or withdrawal actions. |
+| 搜索 | 按关键词筛选资产。 |
+| 隐藏 1 USD 以下资产 | 隐藏低价值资产行。 |
+| Deposit / Withdraw | 进入充值或提现操作。 |
 
 {% hint style="info" %}
-Hiding assets below 1 USD is only a display preference. It does not change balances, orders, positions, or trading behavior.
+隐藏 1 USD 以下资产仅影响页面展示，不会改变余额、订单、持仓或交易行为。
 {% endhint %}
 
 ### Deposits and withdrawals
 
-The Deposits and Withdrawals tab displays account ledger records related to transfers and balance changes. It is intended for reviewing historical funding activity.
+Deposits and Withdrawals 用于展示账户资金流水，包括充值、提现以及相关余额变化记录。
 
 ## Copies
 
-The Copies section is dedicated to copy-trading activity. It separates copy-trading accounts from the user's main wallet so that copied positions, copied equity, and copy-trading history can be reviewed independently.
+Copies 是复制交易专用区域。该区域会将复制交易账户与主钱包区分开，便于用户单独查看复制交易权益、复制规则和历史表现。
 
 {% hint style="warning" %}
-Copy trading may result in losses. Historical trader performance, Smart Money labels, or previous copy-trading results do not guarantee future returns.
+复制交易可能产生亏损。历史收益、聪明钱标签或过往复制交易结果不代表未来收益。
 {% endhint %}
 
-### Copy-trading equity
+### 复制交易权益
 
-Copy Trading Equity shows the current equity across the user's copy-trading sub-wallets. This value is isolated from the user's main wallet.
+Copy Trading Equity 展示用户所有复制交易子钱包的当前权益。该数值与主钱包资产隔离展示。
 
-The section includes:
+该区域包含以下指标：
 
-| Metric | Description |
+| 指标 | 说明 |
 | --- | --- |
-| Copy Trading Equity | Total equity across copy-trading sub-wallets. |
-| 7D PNL | Recent copy-trading performance over the selected period. |
-| Available Margin | Margin currently available for copy-trading activity. |
-| PnL | Net copy-trading PnL. |
-| Unrealized PnL | Open unrealized PnL across copied positions. |
+| Copy Trading Equity | 复制交易子钱包的总权益。 |
+| 7D PNL | 复制交易账户近期表现。 |
+| Available Margin | 当前可用于复制交易的保证金。 |
+| PnL | 复制交易净收益。 |
+| Unrealized PnL | 当前复制持仓的未实现盈亏。 |
 
 ### Active copying
 
-The Copying tab lists active copy-trading rules. If active rules exist, the tab displays the number of active items.
+Copying 页面展示当前活跃的复制交易规则。如果存在活跃规则，标签上会显示对应数量。
 
-Users can:
+用户可以执行以下操作：
 
-- Create a new copy trade.
-- Review active copy-trading rules.
-- Stop all active copy trades.
-- Manage individual copy-trading rules from the rule list.
+- 创建新的复制交易。
+- 查看当前活跃复制规则。
+- 停止所有活跃复制交易。
+- 管理单个复制交易规则。
 
 ### Copying history
 
-Copying History displays historical copy-trading records, including stopped or closed copy relationships. Use this section to review past copy-trading activity and outcomes.
+Copying History 展示历史复制交易记录，包括已停止或已关闭的复制关系。用户可以通过该区域回顾过去的复制交易表现。
 
 {% hint style="info" %}
-Copy-trading updates are processed asynchronously. After creating, closing, deleting, or adjusting a copy-trading rule, the displayed data may take a short time to fully update.
+复制交易相关状态由后端异步处理。创建、关闭、删除或调整复制交易规则后，页面数据可能需要一段时间才会完全更新。
 {% endhint %}
 
 ## Perpetuals
 
-The Perpetuals section focuses on the user's own unified trading account. It does not include copy-trading sub-wallets.
+Perpetuals 用于展示用户主钱包的统一交易账户。该区域不包含复制交易子钱包数据。
 
-Use this section to review direct trading activity, including positions, spot assets, trade history, open orders, funding history, and order history.
+用户可以在这里查看直接交易相关信息，包括持仓、现货资产、成交历史、当前挂单、资金费率历史和订单历史。
 
-### Unified trading summary
+### 统一交易账户概览
 
-The summary panel provides a top-level view of the user's direct trading account.
+顶部概览区域展示用户主账户的核心交易指标。
 
-| Metric | Description |
+| 指标 | 说明 |
 | --- | --- |
-| Total Equity | Estimated equity of the user's main unified trading account. |
-| 7D PNL | Recent PnL for the main account. |
-| Spot Value | Estimated value of spot assets. |
-| MMR | Maintenance margin ratio. |
-| Available Margin | Margin available for direct trading. |
-| Perps Unrealized PNL | Unrealized PnL from perpetual positions. |
-| Spot Unrealized PNL | Unrealized PnL from spot holdings. |
+| Total Equity | 主钱包统一交易账户的估算权益。 |
+| 7D PNL | 主账户近期 PnL。 |
+| Spot Value | 现货资产估算价值。 |
+| MMR | 维护保证金率。 |
+| Available Margin | 当前可用于直接交易的保证金。 |
+| Perps Unrealized PNL | 永续合约持仓的未实现盈亏。 |
+| Spot Unrealized PNL | 现货资产的未实现盈亏。 |
 
 ### Positions
 
-The Positions tab displays open perpetual positions. Depending on the position and account state, users may be able to:
+Positions 展示当前开放的永续合约持仓。根据账户状态和持仓情况，用户可以进行以下操作：
 
-- Set or edit TP/SL.
-- Close a position.
-- Reverse a position.
-- Add margin.
-- Adjust leverage.
+- 设置或编辑 TP/SL。
+- 平仓。
+- 反手。
+- 增加保证金。
+- 调整杠杆。
 
 ### Assets
 
-The Assets tab displays spot assets held by the main wallet. It supports keyword search and the option to hide small balances.
+Assets 展示主钱包持有的现货资产，支持关键词搜索和隐藏小额资产。
 
 ### Trade history
 
-Trade History shows executed trades. Users can filter records by:
+Trade History 展示已成交订单记录。用户可以按以下条件筛选：
 
 - All
 - Long
 - Short
 - Spot
 
-The Aggregate option can be used to group related fills where supported.
+Aggregate 选项可在支持的情况下将相关成交记录聚合展示。
 
 ### Open orders
 
-Open Orders displays active orders. Users can filter orders and manage them directly from the table.
+Open Orders 展示当前挂单。用户可以筛选订单，并直接在表格中管理挂单。
 
-Available actions may include:
+可用操作包括：
 
-- Cancel an order.
-- Cancel all orders.
-- Edit an order.
+- 撤销单个订单。
+- 撤销全部订单。
+- 编辑订单。
 
 ### Funding history
 
-Funding History displays funding-related records for perpetual positions. It supports filtering by all, long, or short direction.
+Funding History 展示永续合约相关的资金费率记录，支持按全部、做多或做空方向筛选。
 
 ### Order history
 
-Order History displays historical orders and their statuses. It supports filtering by all, long, short, or spot orders.
+Order History 展示历史订单及其状态，支持按全部、做多、做空或现货订单筛选。
 
 ## My Profile
 
-The My Profile button opens the Profile tab inside Settings. This area is used to manage personal account information and review account-level fee information.
+My Profile 按钮会打开 Settings 中的 Profile 设置页。用户可以在这里管理个人资料，并查看账户级手续费信息。
 
-Users can manage:
+可管理内容包括：
 
-| Item | Description |
+| 项目 | 说明 |
 | --- | --- |
-| Avatar | Upload or update the profile avatar. |
-| Display name | Update the visible profile name. |
-| UID | Copy the user's SeaBond UID. |
-| VIP level | View the current VIP level and tier information. |
-| Description | Add or update a short profile description. |
-| Fees | Review effective maker and taker fees. |
+| Avatar | 上传或更新个人头像。 |
+| Display name | 修改展示名称。 |
+| UID | 复制用户的 SeaBond UID。 |
+| VIP level | 查看当前 VIP 等级和等级说明。 |
+| Description | 添加或修改个人简介。 |
+| Fees | 查看当前 maker 和 taker 实际费率。 |
 
-### Avatar requirements
+### 头像要求
 
-Supported avatar formats:
+支持的头像格式：
 
 - JPG
 - PNG
 - WebP
 
-Maximum file size: 2 MiB.
+最大文件大小为 2 MiB。
 
-### Profile description requirements
+### 个人简介要求
 
-The profile description must be between 1 and 200 characters. Line breaks are supported. Unsupported control characters cannot be saved.
+个人简介长度需为 1 到 200 个字符。支持换行，不支持保存非法控制字符。
 
-## Data scope
+## 数据口径
 
-SeaBond separates portfolio data by account purpose.
+SeaBond 会根据账户用途区分不同数据范围。
 
-| Area | Data scope |
+| 区域 | 数据范围 |
 | --- | --- |
-| Overview | Main wallet plus copy-trading sub-wallets. |
-| Copies | Copy-trading sub-wallets only. |
-| Perpetuals | Main wallet unified trading account only. |
+| Overview | 主钱包 + 复制交易子钱包。 |
+| Copies | 仅复制交易子钱包。 |
+| Perpetuals | 仅主钱包统一交易账户。 |
 
-This separation helps users distinguish between direct trading performance and copied trading performance.
+这种区分可以帮助用户清楚识别直接交易表现和复制交易表现。
 
-## Important notes
+## 重要说明
 
 {% hint style="warning" %}
-Trading and copy trading involve financial risk. Users should understand position size, leverage, margin usage, liquidation risk, and personal risk tolerance before trading or copying another wallet.
+交易和复制交易均存在金融风险。用户在交易或复制其他钱包前，应充分理解仓位规模、杠杆、保证金占用、强平风险和自身风险承受能力。
 {% endhint %}
 
 {% hint style="info" %}
-Some account data is updated through external systems and asynchronous services. If a recent action is not reflected immediately, refresh the page or wait briefly for the latest account state to synchronize.
+部分账户数据依赖外部系统和异步服务更新。如果刚完成的操作没有立即显示，请刷新页面或稍等片刻，等待最新账户状态同步。
 {% endhint %}
 
-## FAQ
+## 常见问题
 
-### Why can't I access Profile?
+### 为什么无法访问个人中心？
 
-Profile requires authentication. If the user is not signed in, SeaBond redirects them to the Smart Money page.
+个人中心需要登录后访问。如果用户未登录，SeaBond 会自动跳转到 Smart Money 页面。
 
-### Why is Overview different from Perpetuals?
+### 为什么 Overview 和 Perpetuals 显示的数据不同？
 
-Overview includes both the main wallet and copy-trading sub-wallets. Perpetuals only shows the main wallet's unified trading account.
+Overview 包含主钱包和复制交易子钱包；Perpetuals 只展示主钱包的统一交易账户。因此两个页面的数据可能不同。
 
-### Why did my copy-trading data not update immediately?
+### 为什么复制交易数据没有立即更新？
 
-Copy-trading changes are processed asynchronously. Creation, closure, deletion, and margin adjustments may take a short time to appear in the interface.
+复制交易变更由后端异步处理。创建、关闭、删除和调整保证金后，页面数据可能需要一段时间才会更新。
 
-### Does hiding assets below 1 USD affect my balance?
+### 隐藏 1 USD 以下资产会影响余额吗？
 
-No. It only changes how assets are displayed. It does not affect balances, positions, orders, or trading activity.
+不会。该功能只改变页面展示方式，不会影响余额、持仓、订单或交易行为。
 
-### Where can I update my profile information?
+### 在哪里修改个人资料？
 
-Open Profile, select Overview, and click My Profile to access profile settings.
+进入个人中心，在 Overview 页面点击 My Profile，即可打开个人资料设置。
 
