@@ -28,18 +28,18 @@
 
 | 标签 | 判断标准 |
 | --- | --- |
-| 鲸鱼 | 持仓大于 100 万 USDC |
-| 鲨鱼 | 持仓 10 万到 100 万 USDC |
-| 海豚 | 持仓 5 万到 10 万 USDC |
-| 小鱼 | 持仓 1 万到 5 万 USDC |
+| <img src="assets/smart-money/whale.svg" alt="鲸鱼" width="18" /> 鲸鱼 | 持仓大于 100 万 USDC |
+| <img src="assets/smart-money/shark.svg" alt="鲨鱼" width="18" /> 鲨鱼 | 持仓 10 万到 100 万 USDC |
+| <img src="assets/smart-money/dolphin.svg" alt="海豚" width="18" /> 海豚 | 持仓 5 万到 10 万 USDC |
+| <img src="assets/smart-money/fish.svg" alt="小鱼" width="18" /> 小鱼 | 持仓 1 万到 5 万 USDC |
 
 表现标记的判断标准：
 
 | 标签 | 判断标准 |
 | --- | --- |
-| 胜率狂人 | 胜率大于 80%，且 30 日开单数大于 60 |
-| 稳定增值 | 半年以上稳定盈利，且 30 日开单数大于 30 |
-| 赚钱机器 | 胜率大于 60%，且 30 日开单数大于 300 |
+| <img src="assets/smart-money/on-fire.svg" alt="胜率狂人" width="18" /> 胜率狂人 | 胜率大于 80%，且 30 日开单数大于 60 |
+| <img src="assets/smart-money/shield.svg" alt="稳定增值" width="18" /> 稳定增值 | 半年以上稳定盈利，且 30 日开单数大于 30 |
+| <img src="assets/smart-money/lightning.svg" alt="赚钱机器" width="18" /> 赚钱机器 | 胜率大于 60%，且 30 日开单数大于 300 |
 
 这些标签适合做快速判断，但不能替代详情数据。真正决定是否跟随时，还需要结合当前持仓、历史交易、回撤和杠杆一起看。
 
