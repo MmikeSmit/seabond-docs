@@ -24,13 +24,25 @@
 
 常见标签包括：
 
-| 标签类型 | 示例 | 含义 |
-| --- | --- | --- |
-| 账户规模 | <img src="assets/smart-money/badge-whale.svg" alt="鲸鱼" width="64" /> <img src="assets/smart-money/badge-shark.svg" alt="鲨鱼" width="64" /> <img src="assets/smart-money/badge-dolphin.svg" alt="海豚" width="64" /> <img src="assets/smart-money/badge-fish.svg" alt="小鱼" width="64" /> | 按当前持仓规模区分钱包体量。 |
-| 币种偏好 | <img src="assets/smart-money/badge-majors.svg" alt="主流币" width="82" /> <img src="assets/smart-money/badge-alts.svg" alt="山寨币" width="82" /> <img src="assets/smart-money/badge-tradfi.svg" alt="TradFi" width="78" /> <img src="assets/smart-money/badge-mixed.svg" alt="综合" width="64" /> | 判断钱包主要交易哪些类型的标的。 |
-| 方向偏好 | <img src="assets/smart-money/badge-long-biased.svg" alt="偏多" width="64" /> <img src="assets/smart-money/badge-short-biased.svg" alt="偏空" width="64" /> <img src="assets/smart-money/badge-hybrid.svg" alt="均衡型" width="82" /> | 判断钱包更常做多、做空，还是多空相对均衡。 |
-| 交易周期 | <img src="assets/smart-money/badge-trend.svg" alt="超短线" width="82" /> <img src="assets/smart-money/badge-short-term.svg" alt="短线" width="64" /> <img src="assets/smart-money/badge-high-freq.svg" alt="中长线" width="82" /> | 判断钱包更偏短频交易，还是更长周期持仓。 |
-| 表现标记 | <img src="assets/smart-money/badge-on-fire.svg" alt="胜率狂人" width="104" /> <img src="assets/smart-money/badge-shield.svg" alt="稳定增值" width="104" /> <img src="assets/smart-money/badge-lightning.svg" alt="赚钱机器" width="104" /> | 对胜率、稳定性或交易活跃度表现较突出的钱包做提示。 |
+| 标签类型 | 图标 | 标签 | 含义 |
+| --- | --- | --- | --- |
+| 账户规模 | <img src="assets/smart-money/whale.svg" alt="鲸鱼" width="18" /> | 鲸鱼 | 按当前持仓规模区分钱包体量。 |
+| 账户规模 | <img src="assets/smart-money/shark.svg" alt="鲨鱼" width="18" /> | 鲨鱼 | 按当前持仓规模区分钱包体量。 |
+| 账户规模 | <img src="assets/smart-money/dolphin.svg" alt="海豚" width="18" /> | 海豚 | 按当前持仓规模区分钱包体量。 |
+| 账户规模 | <img src="assets/smart-money/fish.svg" alt="小鱼" width="18" /> | 小鱼 | 按当前持仓规模区分钱包体量。 |
+| 币种偏好 | <img src="assets/smart-money/majors.svg" alt="主流币" width="18" /> | 主流币 | 判断钱包主要交易哪些类型的标的。 |
+| 币种偏好 | <img src="assets/smart-money/alts.svg" alt="山寨币" width="18" /> | 山寨币 | 判断钱包主要交易哪些类型的标的。 |
+| 币种偏好 | <img src="assets/smart-money/tradfi.svg" alt="TradFi" width="18" /> | TradFi | 判断钱包主要交易哪些类型的标的。 |
+| 币种偏好 | <img src="assets/smart-money/mixed.svg" alt="综合" width="18" /> | 综合 | 判断钱包主要交易哪些类型的标的。 |
+| 方向偏好 | <img src="assets/smart-money/long-biased.svg" alt="偏多" width="18" /> | 偏多 | 判断钱包更常做多、做空，还是多空相对均衡。 |
+| 方向偏好 | <img src="assets/smart-money/short-biased.svg" alt="偏空" width="18" /> | 偏空 | 判断钱包更常做多、做空，还是多空相对均衡。 |
+| 方向偏好 | <img src="assets/smart-money/hybrid.svg" alt="均衡型" width="18" /> | 均衡型 | 判断钱包更常做多、做空，还是多空相对均衡。 |
+| 交易周期 | <img src="assets/smart-money/trend.svg" alt="超短线" width="18" /> | 超短线 | 判断钱包更偏短频交易，还是更长周期持仓。 |
+| 交易周期 | <img src="assets/smart-money/short-term.svg" alt="短线" width="18" /> | 短线 | 判断钱包更偏短频交易，还是更长周期持仓。 |
+| 交易周期 | <img src="assets/smart-money/high-freq.svg" alt="中长线" width="18" /> | 中长线 | 判断钱包更偏短频交易，还是更长周期持仓。 |
+| 表现标记 | <img src="assets/smart-money/on-fire.svg" alt="胜率狂人" width="18" /> | 胜率狂人 | 对胜率、稳定性或交易活跃度表现较突出的钱包做提示。 |
+| 表现标记 | <img src="assets/smart-money/shield.svg" alt="稳定增值" width="18" /> | 稳定增值 | 对胜率、稳定性或交易活跃度表现较突出的钱包做提示。 |
+| 表现标记 | <img src="assets/smart-money/lightning.svg" alt="赚钱机器" width="18" /> | 赚钱机器 | 对胜率、稳定性或交易活跃度表现较突出的钱包做提示。 |
 
 例如截图里的 **均衡型 / 偏多 / 短线**，表示这个钱包在画像上多空分布相对均衡、近期方向更偏多，交易节奏偏短线。用户可以先通过这些标签判断它是否符合自己的跟单偏好，再进入详情页看持仓和历史交易。
 
@@ -38,12 +50,12 @@
 
 账户规模按当前持仓金额划分：
 
-| 标签 | 判断标准 |
-| --- | --- |
-| <img src="assets/smart-money/badge-whale.svg" alt="鲸鱼" width="64" /> | 持仓大于 100 万 USDC |
-| <img src="assets/smart-money/badge-shark.svg" alt="鲨鱼" width="64" /> | 持仓 10 万到 100 万 USDC |
-| <img src="assets/smart-money/badge-dolphin.svg" alt="海豚" width="64" /> | 持仓 5 万到 10 万 USDC |
-| <img src="assets/smart-money/badge-fish.svg" alt="小鱼" width="64" /> | 持仓 1 万到 5 万 USDC |
+| 图标 | 标签 | 判断标准 |
+| --- | --- | --- |
+| <img src="assets/smart-money/whale.svg" alt="鲸鱼" width="18" /> | 鲸鱼 | 持仓大于 100 万 USDC |
+| <img src="assets/smart-money/shark.svg" alt="鲨鱼" width="18" /> | 鲨鱼 | 持仓 10 万到 100 万 USDC |
+| <img src="assets/smart-money/dolphin.svg" alt="海豚" width="18" /> | 海豚 | 持仓 5 万到 10 万 USDC |
+| <img src="assets/smart-money/fish.svg" alt="小鱼" width="18" /> | 小鱼 | 持仓 1 万到 5 万 USDC |
 
 这个标签主要用来判断钱包体量。体量越大，通常越能代表真实资金行为；体量较小的钱包，收益率可能更容易被少数交易放大。
 
@@ -51,11 +63,11 @@
 
 表现标记用于提示近期交易表现比较突出的账户：
 
-| 标签 | 判断标准 |
-| --- | --- |
-| <img src="assets/smart-money/badge-on-fire.svg" alt="胜率狂人" width="104" /> | 胜率大于 80%，且 30 日开单数大于 60 |
-| <img src="assets/smart-money/badge-shield.svg" alt="稳定增值" width="104" /> | 半年以上稳定盈利，且 30 日开单数大于 30 |
-| <img src="assets/smart-money/badge-lightning.svg" alt="赚钱机器" width="104" /> | 胜率大于 60%，且 30 日开单数大于 300 |
+| 图标 | 标签 | 判断标准 |
+| --- | --- | --- |
+| <img src="assets/smart-money/on-fire.svg" alt="胜率狂人" width="18" /> | 胜率狂人 | 胜率大于 80%，且 30 日开单数大于 60 |
+| <img src="assets/smart-money/shield.svg" alt="稳定增值" width="18" /> | 稳定增值 | 半年以上稳定盈利，且 30 日开单数大于 30 |
+| <img src="assets/smart-money/lightning.svg" alt="赚钱机器" width="18" /> | 赚钱机器 | 胜率大于 60%，且 30 日开单数大于 300 |
 
 这些标记只说明钱包符合对应的数据条件，不代表后续一定会继续盈利。判断是否跟随时，还需要结合当前持仓、回撤、杠杆和交易币种一起看。
 
