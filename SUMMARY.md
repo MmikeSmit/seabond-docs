@@ -9,7 +9,7 @@
 
 - [聪明钱发现](smart-money.md)
 - [钱包详情分析](wallet-details.md)
-- [复制交易](copy-trading.md)
+- [跟单](copy-trading.md)
 - [个人中心](profile.md)
 - [收藏与标签](favorites-labels.md)
 
@@ -18,4 +18,3 @@
 - [邀请与积分](invite-points.md)
 - [风险说明](risk-disclaimer.md)
 - [常见问题](faq.md)
-
